@@ -349,3 +349,63 @@ main *{
     width: 85%;
     margin: auto;
 }
+
+/*CONTACT*/
+
+.contact_container {
+    max-width: 1080px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.contact_info {
+    width: 35%;
+}
+
+.contact_browse_packages {
+    border-top: 1px solid #DCDDEB;
+    padding: 55px 0;
+}
+
+.contact_form {
+    max-width: 55%;
+    background: #EFF0F6;
+    border-radius: 14px;
+}
+
+.contact_form > form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.contact_form div{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_form div > input[type=text] {
+    background: #FFFFFF;
+    border: 1px solid #EFF0F6;
+    border-radius: 16px;
+    height: 72px;
+    width: 259px;
+    box-shadow: 0px 2px 12px rgba(20, 20, 43, 0.08);
+}
+
+#textarea_note {
+    width: 100%;
+}
+
+#textarea_note > textarea {
+    background: #FFFFFF;
+    border: 1px solid #EFF0F6;
+    border-radius: 16px;
+    height: 144px;
+    width: 500px;
+    box-shadow: 0px 2px 12px rgba(20, 20, 43, 0.08);
+    resize: none;
+    padding: 1em;
+}
