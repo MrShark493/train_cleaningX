@@ -186,10 +186,6 @@ main {
     flex-direction: column;
 }
 
-main *{
-    margin-bottom: 15px;
-}
-
 .main_index_slogan {
     max-width: 1080px;
     display: flex;
@@ -409,3 +405,64 @@ main *{
     resize: none;
     padding: 1em;
 }
+
+/*SERVICES*/
+.services_container {
+    margin: auto;
+    max-width: 1080px;
+}
+
+.services_container > div {
+    width: 95%;
+    margin: 50px auto auto auto;
+    display: flex;
+}
+
+.services_block_1 {
+    flex-direction: column;
+}
+
+.services_block_1 > div{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.services_list {
+    text-align: center;
+}
+
+.services_block_2 {
+    background: #211F54;
+    border-radius: 24px;
+}
+
+.services_block_2 > div {
+    margin: auto;
+}
+
+.services_block_3 > div {
+    margin: auto;
+    margin-left: 20px;
+}
+
+.services_checks {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.services_checks > div {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.services_decor_img {
+    width: 640px;
+    height: 680px;
+}
+
+.services_block_4 > div {
+    margin: auto;
+}
+
